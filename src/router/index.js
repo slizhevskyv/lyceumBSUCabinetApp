@@ -10,8 +10,7 @@ import profileComponent from "../components/Profile.vue";
 Vue.use(VueRouter);
 
 //ROUTES
-const routes = [
-	{
+const routes = [{
 		path: "/settings",
 		component: settingComponent
 	},
@@ -23,7 +22,8 @@ const routes = [
 
 //ROUTER
 const router = new VueRouter({
-    routes: routes
+	mode: 'history',
+	routes: routes
 })
 
 export default router;

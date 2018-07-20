@@ -10,7 +10,7 @@ import App from "./App.vue";
 new Vue({
 	el: "#app",
 	router: router,
-	render: function(createElement) {
+	render: function (createElement) {
 		return createElement(App);
 	}
 });
