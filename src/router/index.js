@@ -5,6 +5,7 @@ import VueRouter from "vue-router";
 //COMPONENTS
 import settingComponent from "../components/Settings.vue";
 import profileComponent from "../components/Profile.vue";
+// import homeComponent from "../components/Home.vue";
 
 //DEPENDENCIES
 Vue.use(VueRouter);
